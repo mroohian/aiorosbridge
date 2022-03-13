@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>aiorosbridge</name>
+  <version>0.1.0</version>
+  <description>aioros and anyio based ROS bridge implementation</description>
+
+  <author>Reza Roohian</author>
+  <maintainer email="m.roohian87@gmail.com">Reza Roohian</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>genpy</run_depend>
+  <run_depend>python3-anyio</run_depend>
+  <run_depend>python3-aioros</run_depend>
+  <run_depend>python3-wsproto</run_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>std_msgs</test_depend>
+  <test_depend>std_srvs</test_depend>
+
+  <export />
+
+</package>
